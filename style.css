@@ -1,0 +1,41 @@
+.cards {
+    height: 700px;
+    width: 600px;
+    margin: 0px auto;
+    display: flex;
+    align-content: space-evenly;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 30%;
+    height:30%;
+    background-color: grey;
+    text-align: center;
+    margin:5px;
+    font-size: 1.5em;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.active {
+    background-color: green;
+}
+
+@media screen and (max-width: 300px) {
+    .cards {
+        height: 300px;
+        width: 200px;
+    }
+
+    .card {
+        width: 40%;
+        font-size: 1rem;
+        margin: 0.5em;
+    }
+}
